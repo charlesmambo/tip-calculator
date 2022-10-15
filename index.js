@@ -17,7 +17,7 @@ tips.forEach(function(val){
 });
 
 billInput.value = "0.0";
-peopleInput.value = "1";
+peopleInput.value = "0";
 tipPerPerson.innerHTML = "$" + (0.0).toFixed(2)
 totalPerAmount.innerHTML = "$" + (0.0).toFixed(2)
 
