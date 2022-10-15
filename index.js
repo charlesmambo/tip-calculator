@@ -34,7 +34,7 @@ function peopleInputFun(){
     peopleValue = parseFloat(peopleInput.value);
     calculatorTip();
 
-    if (peopleValue < 1){
+    if (peopleValue == 0){
         error.style.visibility = "visible"
         peopleInput.style.border = "thin solid red"
     }else{
